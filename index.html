@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Web</title>
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- Hubungkan file CSS -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portofolio Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Selamat Datang di Portofolio Saya</h2>
+            <p>Saya adalah seorang desainer web dengan pengalaman dalam...</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>nama:muhamad revaldo ayutya permana</p>
+            <p>umur:19 th</p>
+            <p>cita-cita:menjadi desain grafis profesional</p>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <div class="container">
+            <h2>Proyek Terbaru</h2>
+            <div class="project">
+                <h3>Judul Proyek 1</h3>
+                <p>Deskripsi proyek...</p>
+            </div>
+            <div class="project">
+                <h3>Judul Proyek 2</h3>
+                <p>Deskripsi proyek...</p>
+            </div>
+            <!-- Tambahkan proyek-proyek lainnya sesuai kebutuhan -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <form action="submit.php" method="POST">
+                <label for="name">m.revaldo a.p:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">@sukiliar.com:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portofolio Web. Dibuat dengan Cinta oleh [Nama Anda].</p>
+        </div>
+    </footer>
+</body>
+</html>
